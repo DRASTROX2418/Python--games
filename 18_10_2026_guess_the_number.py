@@ -2,10 +2,10 @@
 
 
 import random
-secret = random.randint(1,10)
+secret = random.randint(1,20)
 
 print("Guess the number Beta!")
-guess = int(input("Choose a number from 1 to 10:"))
+guess = int(input("Choose a number from 1 to 20:"))
 
 if guess == secret:
     print("Ganz richtig! You WON")
